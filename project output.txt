@@ -1,0 +1,52 @@
+
+Command? help
+*** Commands: create, load, find <n>, instruments, accessories, students, quit
+***           students [ <accessory> ], accessories [ <instrument> ]
+
+Command? instruments
+this is one to one relation
+All instruments:
+1: Flute  (This is flute description)
+2: Clarinet  (This is clarinet description)
+3: Basson  (This is basson description)
+3: Basson  (This is basson description)
+4: Picolo  (This is picolo description)
+
+Command? accessories
+All Accessories:
+1: Cleaning Rod
+5: Pad
+3: Reed Brush
+2: Reeds
+4: Strap
+
+Command? students
+this is many to many relation
+All students:
+3: John Doe 
+    Accessory owned: Cleaning Rod
+    Accessory owned: Reeds
+    Accessory owned: Reed Brush
+1: Mary Jane 
+    Accessory owned: Pad
+5: Leslie Klein 
+4: Tim Novak 
+    Accessory owned: Reeds
+    Accessory owned: Strap
+2: Kim Smith 
+    Accessory owned: Cleaning Rod
+    Accessory owned: Strap
+    Accessory owned: Pad
+
+Command? accessories flute
+this is many to one relation
+Accessories of flute:
+    Cleaning Rod
+
+Command? students pad
+this is many to many relation
+Student with accessory pad are:
+    Mary,Jane
+    Kim,Smith
+
+Command? 
